@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+    background-color:  #260072;
+   
+   
+}
+
+
+
+.tema_jogo{
+    margin: 100px;
+    padding: 15px;
+    border: -100px;
+}
+
+.botao{
+    margin: 115px;
+    padding: -100px;
+    
+}
+
+#titulo{
+    color: aliceblue;
+}

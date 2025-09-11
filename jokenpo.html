@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Jokenpô</title>
+    <link rel="stylesheet" href="jokenpo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+       
+
+        <div class="tema_jogo">
+             <h1 id="titulo">Jogo de Jokenpô</h1>  
+            <img src="img/tema_jogo.jpg" alt="tema_jogo">
+        </div>
+        <div class="botao">
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-5" id="1" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" onclick="jogar_pedra()">Pedra 1</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-5" id="2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="jogar_papel()">Papel 2</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-5" id="3" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="jogar_tesoura()">Tesoura 3</button>
+            </li>
+            </ul>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+    <script src="jokenpo.js"></script>
+</body>
+</html>
